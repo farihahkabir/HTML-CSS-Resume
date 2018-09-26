@@ -1,1 +1,38 @@
-/* Your CSS styles go here */
+body {
+    background-color: powderblue;
+}
+
+h1{
+    color: DarkSlateBlue;
+    font-family: Georgia;
+    font-style: normal;
+}
+
+h2{
+    color: DarkSlateGray;
+}
+
+.first {
+    border: 2px solid black;
+    color: RosyBrown;
+    margin: 10px;
+    padding: 20px;
+}
+
+.second{
+    font-family: Arial;
+    font-style: oblique;
+    color: tomato;
+}
+
+a{
+    color: black;
+}
+.visited{
+    color: tomato;
+}
+
+.third{
+    border: 2px solid black;
+    font-style: normal;
+}
