@@ -1,5 +1,6 @@
 body {
     background-color: powderblue;
+    margin: 75px;
 }
 
 h1{
@@ -35,4 +36,70 @@ a{
 .third{
     border: 2px solid black;
     font-style: normal;
+    height: 100px; 
+    width: 600px;
+}
+
+image{
+    background-color: powderblue;
+}
+
+h4{
+    font-size: 20px;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+th{
+    height: 30px;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+h5{
+    font-size: 20px;
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 2px;
+}
+
+input[type=text][name="message"], select {
+    width: 50%;
+    padding: 50px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 2px;
+}
+
+button[type=button], select {
+    width: 57.5%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+label{
+    width: 100px; 
+    display: inline-block;
 }
