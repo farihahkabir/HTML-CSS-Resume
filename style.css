@@ -18,6 +18,9 @@ h2{
     color: RosyBrown;
     margin: 10px;
     padding: 20px;
+    display: inline-block;
+    font-size: 20px
+    ;
 }
 
 .second{
@@ -38,10 +41,12 @@ a{
     font-style: normal;
     height: 100px; 
     width: 600px;
+    display: inline-block;
 }
 
 image{
     background-color: powderblue;
+    display: inline-block;
 }
 
 h4{
@@ -102,4 +107,23 @@ button[type=button], select {
 label{
     width: 100px; 
     display: inline-block;
+}
+
+@media (max-width: 700px){
+    .first, .third, .fourth{
+        width: 50%;
+        font-size: 14px;
+    }
+    .first{
+        border: 4px dotted white;
+    }
+    .third{
+        background-color: pink;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 701px){
+    .first, .third, .fourth{
+        font-size: 25px;
+    }
 }
